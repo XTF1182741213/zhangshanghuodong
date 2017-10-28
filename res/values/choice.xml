@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="change">
+        <item>无</item>
+        <item>思德</item>
+        <item>文化</item>
+        <item>身心</item>
+        <item>创新</item>
+        <item>技能</item>
+        </string-array>
+        
+     <string-array name="change2">
+        <item>思德</item>
+        <item>文化</item>
+        <item>身心</item>
+        <item>创新</item>
+        <item>技能</item>
+         <item>无</item>
+        </string-array>
+</resources>

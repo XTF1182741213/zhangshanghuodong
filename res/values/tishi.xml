@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tishi">
+        <item>通知显示消息内容</item>
+        <item>锁屏显示消息弹框</item>
+        <item>通知时指示灯闪烁</item>
+        <item>退出后仍接收消息通知</item>
+        <item>夜间防骚扰模式</item>
+        </string-array>
+    
+</resources>

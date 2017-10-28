@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e3e3e3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="特别关注"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/title_btn_right"
+            android:text="返回"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:id="@+id/login_reback_btn" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_marginTop="2dp"
+           android:background="#fff"
+           android:clickable="true"
+           android:gravity="center_vertical"
+           android:onClick="startchat" >
+
+           <ImageView
+               android:id="@+id/imageView4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_margin="3dp"
+               android:src="@drawable/xiaohei01" />
+
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="25dp"
+               android:layout_toRightOf="@+id/imageView4"
+               android:text="信息 "
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="#000"
+               android:textStyle="bold"
+               android:textSize="20sp" />
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:background="#fff"
+               android:clickable="true"
+               android:gravity="center_vertical"
+               android:onClick="startchat" >
+
+               <ImageView
+                   android:id="@+id/ImageView01"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentTop="true"
+                   android:layout_margin="3dp"
+                   android:src="@drawable/xiaohei01" />
+
+               <TextView
+                   android:id="@+id/TextView02"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:layout_marginLeft="25dp"
+                   android:layout_toRightOf="@+id/ImageView01"
+                   android:text="信息 "
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="#000"
+                   android:textSize="20sp"
+                   android:textStyle="bold" />
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="60dp"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentTop="true"
+                   android:background="#fff"
+                   android:clickable="true"
+                   android:gravity="center_vertical"
+                   android:onClick="startchat" >
+
+                   <ImageView
+                       android:id="@+id/ImageView02"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentLeft="true"
+                       android:layout_alignParentTop="true"
+                       android:layout_margin="3dp"
+                       android:src="@drawable/xiaohei01" />
+
+                   <TextView
+                       android:id="@+id/TextView03"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerVertical="true"
+                       android:layout_marginLeft="25dp"
+                       android:layout_toRightOf="@+id/ImageView02"
+                       android:text="信息学院"
+                       android:textAppearance="?android:attr/textAppearanceMedium"
+                       android:textColor="#000"
+                       android:textSize="20sp"
+                       android:textStyle="bold" />
+               </RelativeLayout>
+
+           </RelativeLayout>
+
+       </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="2dp"
+        android:background="#fff"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="startchat" >
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:src="@drawable/pig03" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@+id/ImageView03"
+            android:text="   大神"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+        
+          <TextView
+            android:id="@+id/EditText05"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+        
+            android:textColor="#6c7b8b"
+            android:textSize="17sp"
+            android:text="主办方最新活动自动推送到我的关注"
+            />
+
+          <TextView
+              android:id="@+id/EditText06"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+              
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:background="#6ca6cd"
+              android:gravity="center"
+              android:text="添加特别关注的主办方"
+              android:textColor="#000"
+              android:textSize="20sp" />
+
+</LinearLayout>
